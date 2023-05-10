@@ -2,6 +2,7 @@ import os
 from time import sleep
 from matplotlib import pyplot as plt
 from matplotlib import image as mpimg
+import tkinter
 
 
 class image:
