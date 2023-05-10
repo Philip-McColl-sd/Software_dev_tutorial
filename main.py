@@ -11,7 +11,7 @@ def submit_credentials():
     print("Username:", username)
     print("Password:", password)
     # Verificar si se han ingresado credenciales válidas
-    if username != "" and password != "" and username in user_db.db.keys() and password != user_db.db[username]:
+    if username != "" and password != "" and username in user_db.db.keys() and password != user_db.db[username]:# La credencial es valida pero la contraseña es incorrecta
         username = username_entry.get()
         password = password_entry.get()
         print("Username:", username)
